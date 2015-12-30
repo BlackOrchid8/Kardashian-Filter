@@ -5,7 +5,8 @@
   "description": "Remove  Kardashian from the Internet.",
   "page_action" :
   {
-    "default_title" : "Warning: Kardashian is on this page!"
+    "default_title" : "Warning: Kardashian is on this page!",
+"default_icon" : "images/icon-19.png"
   },
   "permissions": [
     "tabs",
@@ -25,6 +26,12 @@
       "all_frames": false
     }
   ],
+"icons" : {
+  	"16": "images/icon-16.png",
+    "19": "images/icon-19.png",
+    "48": "images/icon-48.png",
+    "120": "images/icon-120.png"
+  },
   "background": {
     "persistent": false,
     "page": "background.html"
