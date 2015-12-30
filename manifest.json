@@ -19,7 +19,10 @@
         "https://*/*"
       ],
       "exclude_globs": [
-        "*://*github.com*"
+        "*://*github.com*",
+	"*://*outlook.com*",
+	"*://*mail.live.com*",
+	"*://*mail.google.com*"
       ],
       "js": ["js/jquery-2.1.4.min.js", "js/filter.js"],
       "run_at": "document_idle",
