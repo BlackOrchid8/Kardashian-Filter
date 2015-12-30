@@ -1,7 +1,7 @@
 Kardashian Filter
 ================================
 A Chrome extension that removes Kardashian from the Internet.
-Forked from Trump-Filter https://github.com/RobSpectre/Trump-Filter
+<br/>Forked from Trump-Filter https://github.com/RobSpectre/Trump-Filter
 
 Overview
 --------------------------
@@ -30,7 +30,11 @@ Here's a howto to get the source of the Chrome Extension running in your environ
 
 1) Grab latest source
 <pre>
-git clone https://RobSpectre/Trump-Filter.git
+git clone https://github.com/bgjj04/Kardashian-Filter/
+</pre>
+<br/><br/>Original project from Rob Spectre
+<pre>
+git clone https://github.com/RobSpectre/Trump-Filter
 </pre>
 
 2) Enable Chrome Extension in your Chrome install
@@ -49,5 +53,5 @@ Chuckle to self as you reload this page and significant chunks of it suddenly di
 Meta
 -------------------------
 
-* Forked from source created by [Rob Spectre](http://brooklynhacker.com) by Jonathan jackson
+* Forked from source created by [Rob Spectre](http://brooklynhacker.com) by [bgjj04](http://jonathanrjackson.com)
 * This work is licensed under GPLv3.
