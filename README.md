@@ -18,9 +18,7 @@ Features
 Installation (for Users)
 --------------------------
 
-Just install the extension from [the Chrome Web
-Store](https://chrome.google.com/webstore/detail/pgolkklipgikkpeknefbinnmhlmmdbfa)!
-
+Just install the extension 
 Then surf the web, comforted by the protection you are now afforded.
 
 
