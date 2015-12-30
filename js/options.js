@@ -14,21 +14,21 @@ function saveOptions() {
 
 function getOptions(callback) {
   chrome.storage.sync.get({
-    filter: 'aggro',
+    Kfilter: 'aggro',
     Kardashians: 0,
     pages: 0
   }, function(items) {
-    document.getElementById('selectedFilter').value = items.filter;
+    document.getElementById('selectedFilter').value = items.Kfilter;
     document.getElementById('Kardashiancount').textContent = items.Kardashians;
     document.getElementById('pagecount').textContent = items.pages;
-    callback(items.filter);
-    return items.filter;
+    callback(items.Kfilter);
+    return items.Kfilter;
   });
 }
 
 function restoreOptions() {
-  getOptions(function(filter) {
-    document.getElementById('selectedFilter').value = filter;
+  getOptions(function(Kfilter) {
+    document.getElementById('selectedFilter').value = Kfilter;
   });
   document.getElementById('selectedFilter').addEventListener('click', saveOptions);
 }
