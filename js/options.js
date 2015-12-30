@@ -2,7 +2,7 @@ function saveOptions() {
   var selectedFilter = document.getElementById('selectedFilter').value;
 
   chrome.storage.sync.set({
-    filter: selectedFilter
+    Kfilter: selectedFilter
   }, function(items) {
     var status = document.getElementById('saveMessage');
     status.textContent = 'Filter selected - ' + items.filter; 
